@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【PRONT】あさのラテはじめました。 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【PRONT】あさのラテはじめました。</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【PRONT】あさのラテはじめました。</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210708/20210708.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210708/20210708.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>女性</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>女性らしい、柔らかい、さわやか</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>やわらかい</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>女性の好みそうな柔らかいフォントと配色</li>
+<li>空色を基調に朝らしいさわやかさも感じる</li>
+<li>あしらいが一つ一つ凝っており、全体の雰囲気を演出している。</li>
+<li>斜めに配置された「たっぷり」「ふわふわ」は、文字一つ一つの角度を変えることで動きを出している。</li>
+<li>コントラストが低く全体的に落ち着いた印象</li>
+<li>背景の手書き調の雲がふんわりした印象を演出。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

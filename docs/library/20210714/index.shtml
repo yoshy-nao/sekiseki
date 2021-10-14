@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【BAYCREW'S STORE】FAMILY SALE バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【BAYCREW'S STORE】FAMILY SALE</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【BAYCREW'S STORE】FAMILY SALE</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210714/20210714.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210714/20210714.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>大人の女性</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>女性らしい、シンプル、カジュアル</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>全体的な彩度が低く、大人っぽい配色。コントラストが強い。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>要素のアウトラインが四角形になるように整列しており、レイアウトが安定している。</li>
+<li>手書き風の文字が重ねられている部分がアクセントになっていて、抜け感を出している。</li>
+<li>日時の情報がまとまりごとに文字のサイズや余白が調整されており、視認性が高まってる。</li>
+<li>情報のまとまりごとに色味や背景色、線などで差がつけられている。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

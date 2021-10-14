@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【マネーフォワード】キャンペーンバナー バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【マネーフォワード】キャンペーンバナー</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【マネーフォワード】キャンペーンバナー</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210901/20210901.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210901/20210901.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>業種</th>
+<td>IT</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>楽しい、賑やか、ポップ</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>無彩色をほとんど使わず、オレンジ色を基調にカラフルで賑やかにまとめられている。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>ゴシック体</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>シンメトリーで情報が整理されている。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>リボンを使うことでキャンペーン感や特別感を出している。</li>
+<li>タイトルのドロップシャドウにやや濃いオレンジが使われているので、全体の雰囲気を保っている。</li>
+<li>タイトルの「今だけ」が吹き出しになっていて、訴求力を強めて、動きを出している。</li>
+<li>リボンや長方形、アイコンの角が丸いので柔らかい印象を出してる。</li>
+<li>紙吹雪の形がただの長方形だけではなくラウンドしていて、動きを感じる。</li>
+<li>背景にパターンがあり、賑やかさを強めている。</li>
+<li>下部の白の色面と要素が重なっているので、デザインに奥行きを出している。</li>
+<li>「電気料金3%OFF」と「プレミアムサービスずっと0円！」の色味を変えることで、対比関係が分かりやすい。</li>
+<li>「電気料金3%OFF」に緑を使うことで、全体の色味が単調になるのを防いでいる。</li>
+<li>数字が大きくすることで、訴求力を強めて、デザインにメリハリを出している。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

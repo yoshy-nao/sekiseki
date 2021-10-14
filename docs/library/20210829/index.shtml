@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="もっと便利に！もっとおトクに！LINE ID 連携キャンペーン バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜もっと便利に！もっとおトクに！LINE ID 連携キャンペーン</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">もっと便利に！もっとおトクに！LINE ID 連携キャンペーン</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210829/20210829.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210829/20210829.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>若者</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>若者らしい、ポップ、カジュアル、さわやか</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>白を基調に明度の高い色とLINEの緑でまとめられている。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>細めのゴシックが使われておりすっきりとした印象</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>中心に必要な情報が配置されている。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>背景色がグラデーションになっており動きを感じる。</li>
+<li>背景色の上に重ねられているストライプがさらに動きを出している。</li>
+<li>紙吹雪が上に配置されており賑やかな雰囲気を演出。ただ、紙吹雪の色がパステル調なので、あまりうるさくない。</li>
+<li>ストライプや色面の幾何学を重ねることでポップさを演出。</li>
+<li>「もっと便利に〜」のアンダーラインを破線にすることで軽やかにしている。</li>
+<li>優先度の高い数字を大きく表示している。</li>
+<li>「今なら」に吹き出しのようなあしらいをいれることで強調しよりポップに。</li>
+<li>「もれなく」の文字の上に緑色の「・」をつけて強調している。</li>
+<li>「300円」の文字のアウトラインがずれており、よりポップになっている。</li>
+<li>「（税込）」を「円」の上に置き、レイアウトを調整。</li>
+<li>手書き風の「OFF」の文字が「円」に重なっており抜け感がある。</li>
+<li>「クーポンプレゼント」のリボンの角度が強くポップさが増している。</li>
+<li>リボンの背景色にストライプを入れ、より賑やかでカジュアルに。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

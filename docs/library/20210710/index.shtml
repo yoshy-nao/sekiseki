@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="タイトル バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜タイトル</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【ドコモ】スマホで夏アゲる！キャンペーン</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210710/20210710.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210710/20210710.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>夏、楽しい、ポップ</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>コントラストが強い。彩度が高くカラフル</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>全体的にコントラストが強く、パキッとした印象で一目で夏を感じる。</li>
+<li>ビックリマークが上向きの矢印になっており、うちわのあしらいがあるなどのあしらいに遊びがある。</li>
+<li>躍動感のある書体で、大きさに差がつけられており躍動感を感じる。</li>
+<li>「夏」と「！」の文字に薄くグラデーションがかかっており、動きを出している。</li>
+<li>右下のラベルのギザギザはキャンペーン感とパキッとした雰囲気を演出。また、斜めにすることで動きを出している。</li>
+<li>「夏」と「ア」を重ねて、シャドウを入れることでデザインに奥行きを出している。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

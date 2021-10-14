@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【吉野家】ねぎ塩豚丼 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【吉野家】ねぎ塩豚丼</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【吉野家】ねぎ塩豚丼</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210716/20210716.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210716/20210716.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>業種</th>
+<td>飲食</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>さわやか、夏、カジュアル</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>爽やかな緑を基調に配色できている。彩度の高い黄色と赤色がアクセントになっている。黒を使ってないので重くない。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>若干角が丸いゴシック体が使われており、カジュアルさが演出されている。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>要素を透過させることで、爽やかで重くならないようにしている。</li>
+<li>円の中の文字が大きくはみ出しており、カジュアルさと動きを出している。</li>
+<li>緑を散らすことで、全体にバランスを生み出している。</li>
+<li>文字の大きさの差が起きい。</li>
+<li>要素が重なっている部分が多く、まとまりと奥行きを出している。</li>
+<li>白字にドロップシャドウをいれることで視認性を高め、デザインに奥行きを出している。</li>
+<li>牛丼の上からの構図によってレイアウトを安定させている。</li>
+<li>雰囲気を演出する背景が選定されている。</li>
+<li>ネギが使われている健康感、みずみずしさを出している。</li>
+<li>文字数の関係上で、できる余白を要素を効果的に配置することによって埋めている。</li>
+<li>文字を斜めに配置し、動きを出している。</li>
+<li>情報の境界に罫線が効果的に用いられている。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

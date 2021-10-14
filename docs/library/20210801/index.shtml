@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【エルテオ】あなたは、どっち派？OPEN HOUSE バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【エルテオ】あなたは、どっち派？OPEN HOUSE</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【エルテオ】あなたは、どっち派？OPEN HOUSE</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210801/20210801.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210801/20210801.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>チラシ</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>30代以上、ファミリー層</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>カジュアル、シンプル、落ち着いた</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>彩度が低めのカジュアルで落ち着いた色合い。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>カジュアルなフォントが使われている</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>シンメトリーで安定している</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>シンメトリーなレイアウトが対比構造が分かりやすくしており、一目で家の見比べであることが伝わる。</li>
+<li>背景の色面の形が家になっている。また、角が丸く柔らかい印象</li>
+<li>あしらいが細く作り込まれている</li>
+<li>リボンの切り込み部分の角度が広く柔らかい印象</li>
+<li>リボンのあしらいが上品さ、特別感を出している</li>
+<li>テキスト情報がまとまりごとに整理されている</li>
+<li>家の名前をフォントの違いによって雰囲気を伝えている</li>
+<li>アイコンの使用などによって、よりカジュアルさを演出</li>
+<li>同じ視点での比較をアイコンを使って一目で分かるようにしている</li>
+<li>余白が広めにとられており、ゆったりとした印象で情報のまとまりも分かりやすい</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

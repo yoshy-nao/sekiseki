@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="グルメと観光よくばり旅行！この夏行きたい石川県 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜グルメと観光よくばり旅行！この夏行きたい石川県</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">グルメと観光よくばり旅行！この夏行きたい石川県</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210715/20210715.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210715/20210715.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>旅好きな女性</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>さわやか、女性らしい、やわらか</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>緑と青を基調にしたパステル調のやわらかでさわやかな配色。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>明朝体がやさしさと落ち着いた雰囲気を出している。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>文字に幾何学の装飾があり、カジュアルさを演出。</li>
+<li>円と曲線の要素を配置して柔らかい雰囲気を演出している。</li>
+<li>「石」の字の隙間に「この夏行きたい」が配置されおり、文字の形態が活用されている。</li>
+<li>「新しい魅力みんなで発見！」が曲線上に配置されていて、カジュアルさを演出。</li>
+<li>中心の円が透過されており、広大な風景が切れておらず、柔らかい印象も出ている。</li>
+<li>明朝体であるため、タイトル部分の黒さが強く見えすぎない</li>
+<li>薄く入っているストライプがカジュアルさを演出。</li>
+<li>「グルメと観光欲張り旅行！」の文字は字間を大きくし、レイアウトを整えている</li>
+<li>自由曲線が多く流動的で退屈にならないようにしている。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

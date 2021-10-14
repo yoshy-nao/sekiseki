@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【NONIO】長時間細菌でクリアな息をキープ バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【NONIO】長時間細菌でクリアな息をキープ</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【NONIO】長時間細菌でクリアな息をキープ</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210629/20210629.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210629/20210629.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>若者</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>清潔感、シンプル、カジュアル、若者向け</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>青を基調にした清潔感のある配色。白字も黒字も可読性のある青で、アクセントカラーの黄色も青味かかっており、全体の清潔なイメージを保っている。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>要素が少なくシンプルなのに印象的なデザインの好例</li>
+<li>ロゴやテキストと容器が重なりがデザインに奥行きを出している。</li>
+<li>「キープ」の「ー」が幅いっぱいに広がっており、長時間殺菌するということを強調が強調されている。</li>
+<li>「クリア」の字を白くすることで抜け感を出している。</li>
+<li>所々に白の文字を置くことで全体が重くなるのを防いでいる。</li>
+<li>両端が揃っていて全体にまとまりがある。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

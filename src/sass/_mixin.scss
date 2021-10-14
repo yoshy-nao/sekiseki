@@ -1,0 +1,24 @@
+$breakpoints: (
+	'sm': 'screen and (max-width: 670px)'
+) !default;
+@mixin mq($breakpoint: sm) {
+	@media #{map-get($breakpoints, $breakpoint)} {
+		@content;
+	}
+}
+// ボタンスタイル
+@mixin button() {
+	display: inline-block;
+	padding: 16px 0;
+	margin-bottom: 24px;
+	width: 272px;
+	border-radius: 27px;
+	background-color: #224258;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
+	@include mq() {
+		margin-bottom: 16px;
+	}
+}

@@ -1,0 +1,51 @@
+@import 'mixin';
+@import 'module';
+@import 'unique';
+@import 'utility';
+* {
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,sans-serif;
+	box-sizing: border-box;
+	color: #224258;
+}
+.main {
+	box-sizing: content-box;
+	max-width: 1136px;
+	margin: 0 auto 50px;
+	min-height: calc(100vh - 98px);
+	padding: 0 16px;
+	@include mq() {
+		padding: 0 2vw;
+	}
+}
+// ヘッダー
+header {
+	text-align: center;
+	letter-spacing: .3em;
+	.header-logo {
+		margin: 40px 0;
+		@include mq() {
+			margin: 24px 0;
+		}
+		a {
+			display: block;
+			font-family: 'Futura','Arial',sans-serif;
+			font-size: 35px;
+			line-height: 1em;
+			@include mq() {
+				font-size: 26px;
+			}
+			span {
+				display: block;
+				font-size: 10px;
+			}
+		}
+	}
+}
+// フッター
+footer {
+	text-align: center;
+	padding: 40px 0;
+	small {
+		font-size: 14px;
+	}
+}

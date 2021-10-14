@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="京都日本酒電車 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜京都日本酒電車</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">京都日本酒電車</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210711/20210711.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210711/20210711.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>カジュアル、和、楽しい、にぎやか</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>柔らかい色合いで日本らしさを感じる。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>モダンで親しみやすい</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>色合いが日本酒、日本に合っている。</li>
+<li>和の世界観とカジュアルさを両立している。</li>
+<li>背景のストライプがカジュアルさを演出。</li>
+<li>要素が多く賑やかな印象だが、情報の優先度が整理されている。</li>
+<li>「日本酒」「電車」という2つの要素がよく伝わってくる。</li>
+<li>下部の帯が地の役割を果たしそこに日本酒が羅列。レイアウトに安定感を与えている。</li>
+<li>長方形に大きな丸が真ん中に配置されており、酒造や日本酒のラベル感を感じる。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

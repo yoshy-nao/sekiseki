@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="11月29日はいい服の日 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜11月29日はいい服の日</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">11月29日はいい服の日</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210614/20210614.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210614/20210614.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>女性、20代、ファッション好き</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>楽しい、ポップ、若者向け、女性らしい、キャンペーン</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>暖色系の配色で楽しさや女性らしさを表現している</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>キャッチフレーズに斜体は楽しさと動きを表現。</li>
+<li>繋がった「％」の文字は軽やかさを表現。</li>
+<li>斜めに入った縦書きの文字で楽しさとリズミカルさを出している。</li>
+<li>優先順位の高い「29」の数字を大きく表記。枠から飛び出している部分は強調されていて、ポップさを演出している。</li>
+<li>上に向かって広がりのあるレイアウトは飛び出すような動きと活気を表現。</li>
+<li>右下の矢印は2つ並んでいてよりポップに。</li>
+<li>女性の写真はコンセプトにあった陽気なポーズとファッションの女性の写真を使われている。また、ターゲット層に近い年齢の女性を使用。</li>
+<li>赤系の配色に黄色をアクセントで置くことで、単調な印象を与えないようにしている。</li>
+<li>フォントサイズの強弱があり、ポップでリズミカルな印象がある。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

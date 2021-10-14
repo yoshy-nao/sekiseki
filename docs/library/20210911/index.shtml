@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【doda】doda転職フェア セレクト オンライン バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【doda】doda転職フェア セレクト オンライン</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【doda】doda転職フェア セレクト オンライン</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210911/20210911.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210911/20210911.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>業種</th>
+<td>人材</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>求職者</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>先進性、信頼、落ち着き</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>寒色系でまとめられていて、信頼や先進性を感じる。</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>ほぼシンメトリーで安定している</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>「新しい時代に求められる」というテーマにあった先進性と信頼性が感じられる。</li>
+<li>奇をてらわないレイアウトやあしらいが、かえってビジネスに合っている。</li>
+<li>写真を単に規則正しいに目新しさがあり、目を引く。</li>
+<li>テーマにあった写真が選定されている。</li>
+<li>写真の中に余計な色味や要素がなく全体の雰囲気を壊していない。</li>
+<li>人の顔が中心に向かっており、必要な情報に目がいく。</li>
+<li>アクセントとして使われている赤色により、全体が単調にならない。</li>
+<li>日付に使われている罫線が全体の雰囲気に合っており、さりげなく情報量を増やしていている。</li>
+<li>期間の中で開始日を大きくして、強調している。</li>
+<li>ややグレーがかった黒を使うことで全体を落ち着いた雰囲気にしている。</li>
+<li>中心のひし形の形に対して文字のバランスがよい。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

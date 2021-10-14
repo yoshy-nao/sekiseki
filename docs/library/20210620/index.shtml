@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【LIG】優秀なエンジニアが応募したくなる会社とは バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【LIG】優秀なエンジニアが応募したくなる会社とは</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【LIG】優秀なエンジニアが応募したくなる会社とは</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210620/20210620.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210620/20210620.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>ビジネスマン</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>先進的、テクノロジー、シンプル、ビジネス</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>青系統の色彩で統一されており先進的なイメージ</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>背景にテクノロジーを感じさせるパターン</li>
+<li>グラデーションで先進的なイメージを表現している</li>
+<li>青を基調にした配色で信頼感と先進的な雰囲気を演出。</li>
+<li>フォントサイズは全体的にあまり大きくなく強弱も少ないため、落ち着いた印象を出している。</li>
+<li>要素の数は少なく、要素を余白を大きめに配置することで、すっきりとした雰囲気を出している。</li>
+<li>レイアウトはシンメトリー気味で要素を整列させることで落ち着いた印象。</li>
+<li>あしらいも最小限でポップな雰囲気を出さないようにしている。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【ラクスル】印刷商品 100%保証 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【ラクスル】印刷商品 100%保証</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【ラクスル】印刷商品 100%保証</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210701/20210701.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210701/20210701.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>社会人、品質にこだわりのある人</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>信頼感、落ち着き、シンプル</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>青と白を基調に清潔感と信頼感を感じる配色。色数が絞られており、シンプルで落ち着いた雰囲気を出している。</td>
+</tr>
+<tr>
+<th>フォント</th>
+<td>細字で硬めのサンセリフ体で信頼感をイメージ。数字のフォントはやや角ばっており、落ち着いている。</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>シンメトリー気味に整然と並んでおり落ち着きや堅実さを出している。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>月桂樹のあしらいは信頼をアピール</li>
+<li>「100%」という文字を大きくマーカーのあしらいで強調し、品質をアピール。</li>
+<li>「満足保証」の文字を1文字ずつ四角で囲み強調。</li>
+<li>青色の線でアウトラインを囲むことで全体を引き締めている。</li>
+<li>下の帯の文字の黒背景に白字となっている部分は、色数を増やさずに内容を強調している。</li>
+<li>マーカーの黄色の強調が全体の色味が単調になりすぎることを防いでいる。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

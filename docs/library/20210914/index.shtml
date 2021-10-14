@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【NEWS PICKS × AlphaDrive】新規事業年度末総会 2020年度の新規事業シーンを振り返る バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【NEWS PICKS × AlphaDrive】新規事業年度末総会 2020年度の新規事業シーンを振り返る</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【NEWS PICKS × AlphaDrive】新規事業年度末総会 2020年度の新規事業シーンを振り返る</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210914/20210914.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210914/20210914.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>業種</th>
+<td>IT</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>ビジネスに興味のある人。新しいことに挑戦したい人。</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>先進性、柔らか、楽しい</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>カラフルだが彩度と明度は高すぎず、年齢層の高い人にも受け入れられる配色。</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>曲線の要素と人物を自由に配置。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>画面の右側は遊びが多いのに対して、左側が整然としており全体を引き締めている。</li>
+<li>写真をモノクロにすることで全体の統一感をキープしている。</li>
+<li>曲線の要素を多く配置し、柔らかで親しみのあるデザインにしている。</li>
+<li>曲線の要素と写真の重なりによってデザインに奥行きを出している。</li>
+<li>右上の文字が曲線に沿っていて柔らかい雰囲気を出している。</li>
+<li>メインの人物とサブの人物で大きさに差をつけることでデザインにメリハリを出している。</li>
+<li>黄色の色面に質感の効果を入れることでデザインを豊かにしている。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

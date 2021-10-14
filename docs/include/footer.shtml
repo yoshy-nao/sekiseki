@@ -1,0 +1,10 @@
+
+<!-- フッター -->
+<footer>
+<small>©︎ Naostudy 2021</small>
+</footer>
+<!-- フッターここまで -->
+<script src="/common/js/jquery-3.4.1.min.js"></script>
+<script src="/common/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="デザインの分析を積み上げるサイト「Seki Seki」です。">
+<title>Seki Seki デザインの分「析」を「積」み上げる</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+
+<!-- フィルター -->
+<div class="filter">
+<button class="filter__btn modal-btn">絞り込み</button>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<h3 class="hdg-3 t-center">絞り込み検索</h3>
+<h3 class="hdg-4">媒体</h3>
+<form class="filter-list flex-box">
+<label class="check-box"><input class="filter-list__item" type="radio" name="media" value="バナー" autocomplete="off"><span class="check-box__mark"></span>バナー</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="media" value="チラシ" autocomplete="off"><span class="check-box__mark"></span>チラシ</label>
+</form>
+
+<h3 class="hdg-4">業種</h3>
+<form class="filter-list flex-box">
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="飲食" autocomplete="off"><span class="check-box__mark"></span>飲食</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="旅行" autocomplete="off"><span class="check-box__mark"></span>旅行</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="ファッション" autocomplete="off"><span class="check-box__mark"></span>ファッション</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="サービス" autocomplete="off"><span class="check-box__mark"></span>サービス</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="印刷" autocomplete="off"><span class="check-box__mark"></span>印刷</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="医療" autocomplete="off"><span class="check-box__mark"></span>医療</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="IT" autocomplete="off"><span class="check-box__mark"></span>IT</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="金融" autocomplete="off"><span class="check-box__mark"></span>金融</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="不動産" autocomplete="off"><span class="check-box__mark"></span>不動産</label>
+</form>
+
+<h3 class="hdg-4">タグ</h3>
+<form class="filter-list flex-box">
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="シンプル" autocomplete="off"><span class="check-box__mark"></span>シンプル</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="清潔感" autocomplete="off"><span class="check-box__mark"></span>清潔感</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="信頼感" autocomplete="off"><span class="check-box__mark"></span>信頼感</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="フォーマル" autocomplete="off"><span class="check-box__mark"></span>フォーマル</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="カジュアル" autocomplete="off"><span class="check-box__mark"></span>カジュアル</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="楽しい" autocomplete="off"><span class="check-box__mark"></span>楽しい</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="ポップ" autocomplete="off"><span class="check-box__mark"></span>ポップ</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="にぎやか" autocomplete="off"><span class="check-box__mark"></span>にぎやか</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="落ち着いた" autocomplete="off"><span class="check-box__mark"></span>落ち着いた</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="さわやか" autocomplete="off"><span class="check-box__mark"></span>さわやか</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="やわらか" autocomplete="off"><span class="check-box__mark"></span>やわらか</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="先進的" autocomplete="off"><span class="check-box__mark"></span>先進的</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="テクノロジー" autocomplete="off"><span class="check-box__mark"></span>テクノロジー</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="ビジネス" autocomplete="off"><span class="check-box__mark"></span>ビジネス</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="女性らしい" autocomplete="off"><span class="check-box__mark"></span>女性らしい</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="男性らしい" autocomplete="off"><span class="check-box__mark"></span>男性らしい</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="tag" value="若者向け" autocomplete="off"><span class="check-box__mark"></span>若者向け</label>
+</form>
+<div class="t-center">
+<button class="btn filter-btn">絞り込む</button>
+</div>
+<div class="t-center"><a class="link filter-clear">全ての条件をクリア</a></div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="filter__search__bg"></div>
+<div class="filter__search close">
+<input type="search" placeholder="キーワードを入力" autocomplete="off">
+<a class="filter__search__button">
+<img src="/common/img/search.svg">
+</a>
+<a class="filter__search__close-button">
+<span></span>
+</a>
+</div>
+</div>
+<!-- 検索ワード -->
+<div class="search-txt"></div>
+<!-- 検索ワード -->
+<!-- 適用済みフィルター -->
+<div class="applied">
+<p class="applied__text">適用済みフィルター</p>
+<ul class="applied__list">
+<li id="media"></li>
+<li id="industry"></li>
+<li id="tag"></li>
+</ul>
+<a class="link filter-clear">全ての条件をクリア</a>
+</div>
+<!-- 適用済みフィルターここまで -->
+<!-- フィルターここまで -->
+
+<!-- 検索結果なし -->
+<div class="no-search">
+<p>入力した条件に一致する検索結果はありませんでした<br><span>別の条件でお試しください</span></p>
+</div>
+<!-- 検索結果なしここまで -->
+
+<!-- デザイン一覧 -->
+<ul class="list-card">
+
+<li class="list-card__item">
+<a class="box" href="/library/20210914/index.shtml">
+<img src="/library/20210914/20210914.jpg">
+<h3>【NEWS PICKS × AlphaDrive】新規事業年度末総会 2020年度の新規事業シーンを振り返る</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>IT
+</li>
+<!-- タグ -->
+<li>先進性</li>
+<li>柔らか</li>
+<li>楽しい</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210911/index.shtml">
+<img src="/library/20210911/20210911.jpg">
+<h3>【doda】doda転職フェア セレクト オンライン</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>人材</li>
+<!-- タグ -->
+<li>先進性</li>
+<li>信頼</li>
+<li>落ち着き</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210901/index.shtml">
+<img src="/library/20210901/20210901.jpg">
+<h3>【マネーフォワード】キャンペーンバナー</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>IT</li>
+<!-- タグ -->
+<li>楽しい</li>
+<li>賑やか</li>
+<li>ポップ</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210829/index.shtml">
+<img src="/library/20210829/20210829.jpg">
+<h3>もっと便利に！もっとおトクに！LINE ID 連携キャンペーン</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>IT</li>
+<!-- タグ -->
+<li>若者らしい</li>
+<li>ポップ</li>
+<li>カジュアル</li>
+<li>さわやか</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210801/index.shtml">
+<img src="/library/20210801/20210801.jpg">
+<h3>【エルテオ】あなたは、どっち派？OPEN HOUSE</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>チラシ</li>
+<!-- 業種 -->
+<li>不動産</li>
+<!-- タグ -->
+<li>カジュアル</li>
+<li>シンプル</li>
+<li>落ち着いた</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210716/index.shtml">
+<img src="/library/20210716/20210716.jpg">
+<h3>【吉野家】ねぎ塩豚丼</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>飲食</li>
+<!-- タグ -->
+<li>さわやか</li>
+<li>夏</li>
+<li>カジュアル</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210715/index.shtml">
+<img src="/library/20210715/20210715.jpg">
+<h3>グルメと観光よくばり旅行！この夏行きたい石川県</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>旅行</li>
+<li>サービス</li>
+<!-- タグ -->
+<li>女性らしい</li>
+<li>さわやか</li>
+<li>やわらか</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210714/index.shtml">
+<img src="/library/20210714/20210714.jpg">
+<h3>【BAYCREW'S STORE】FAMILY SALE</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>ファッション</li>
+<!-- タグ -->
+<li>女性らしい</li>
+<li>シンプル</li>
+<li>カジュアル</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210713/index.shtml">
+<img src="/library/20210713/20210713.jpg">
+<h3>【コスモ】Myカーリースの即納車情報</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>サービス</li>
+<!-- タグ -->
+<li>カジュアル</li>
+<li>信頼感</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210712/index.shtml">
+<img src="/library/20210712/20210712.jpg">
+<h3>【三井住友銀行】カードローン</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>金融</li>
+<!-- タグ -->
+<li>信頼感</li>
+<li>フォーマル</li>
+<li>シンプル</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210711/index.shtml">
+<img src="/library/20210711/20210711.jpg">
+<h3>京都日本酒電車</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>飲食</li>
+<li>旅行</li>
+<li>サービス</li>
+<!-- タグ -->
+<li>カジュアル</li>
+<li>和</li>
+<li>楽しい</li>
+<li>にぎやか</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210710/index.shtml">
+<img src="/library/20210710/20210710.jpg">
+<h3>【ドコモ】スマホで夏アゲる！キャンペーン</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>ネットワーク</li>
+<li>サービス</li>
+<!-- タグ -->
+<li>夏</li>
+<li>楽しい</li>
+<li>ポップ</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210709/index.shtml">
+<img src="/library/20210709/20210709.jpg">
+<h3>【EPSON】普通紙くっきり&キレイ長持ち</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>印刷</li>
+<!-- タグ -->
+<li>ビジネス</li>
+<li>先進的</li>
+<li>信頼感</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210708/index.shtml">
+<img src="/library/20210708/20210708.jpg">
+<h3>【PRONT】あさのラテはじめました。</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>飲食</li>
+<!-- タグ -->
+<li>柔らかい</li>
+<li>女性らしい</li>
+<li>さわやか</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210701/index.shtml">
+<img src="/library/20210701/20210701.jpg">
+<h3>【ラクスル】印刷商品 100%保証</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>印刷</li>
+<li>サービス</li>
+<!-- タグ -->
+<li>信頼感</li>
+<li>落ち着き</li>
+<li>シンプル</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210629/index.shtml">
+<img src="/library/20210629/20210629.jpg">
+<h3>【NONIO】長時間細菌でクリアな息をキープ</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>医療</li>
+<!-- タグ -->
+<li>清潔感</li>
+<li>シンプル</li>
+<li>カジュアル</li>
+<li>若者向け</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210620/index.shtml">
+<img src="/library/20210620/20210620.jpg">
+<h3>【LIG】優秀なエンジニアが応募したくなる会社とは</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>IT</li>
+<!-- タグ -->
+<li>先進的</li>
+<li>テクノロジー</li>
+<li>シンプル</li>
+<li>ビジネス</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210615/index.shtml">
+<img src="/library/20210615/20210615.jpg">
+<h3>15周年感謝祭</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>医療</li>
+<!-- タグ -->
+<li>楽しい</li>
+<li>女性らしい</li>
+<li>ポップ</li>
+<li>若者向け</li>
+</ul>
+</a>
+</li>
+
+<li class="list-card__item">
+<a class="box" href="/library/20210614/index.shtml">
+<img src="/library/20210614/20210614.jpg">
+<h3>11月29日はいい服の日</h3>
+<ul class="tag">
+<!-- 媒体 -->
+<li>バナー</li>
+<!-- 業種 -->
+<li>ファッション</li>
+<!-- タグ -->
+<li>楽しい</li>
+<li>ポップ</li>
+<li>若者向け</li>
+<li>女性らしい</li>
+</ul>
+</a>
+</li>
+
+</ul>
+<!-- デザイン一覧ここまで -->
+
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->

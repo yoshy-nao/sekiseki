@@ -1,0 +1,232 @@
+// カード型UI
+.list-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__item {
+		margin-bottom: 16px;
+		width: 23vw;
+		height: 23vw;
+		max-width: 272px;
+		max-height: 272px;
+		@include mq() {
+			width: 47vw;
+			height: 47vw;
+			max-width: 100%;
+			margin-bottom: 2vw;
+		}
+		a {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: relative;
+			background-color: #e8eef2;
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 75%;
+				max-height: 75%;
+				filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
+			}
+			h3 {
+				display: none;
+			}
+			.tag {
+				display: none;
+			}
+		}
+	}
+	&::before {
+		content: "";
+		display: block;
+		width: 23vw;
+		max-width: 272px;
+		order: 1;
+		@include mq() {
+			width: 47vw;
+			height: 47vw;
+			max-width: 100%;
+		}
+	}
+	&::after {
+		content: "";
+		display: block;
+		width: 23vw;
+		max-width: 272px;
+		@include mq() {
+			width: 47vw;
+			height: 47vw;
+			max-width: 100%;
+		}
+	}
+}
+//絞り込み
+.filter {
+	display: flex;
+	@include mq() {
+		position: relative;
+		height: 52px;
+		width: 96vw;
+		margin-bottom: 20px;
+	}
+	&__btn {
+		@include button();
+		@include mq() {
+			width: calc(100% - 60px);
+			margin-bottom: 0;
+		}
+	}
+	&__search {
+		position: relative;
+		width: 58%;
+		max-width: 706px;
+		margin-left: 16px;
+		transition: all .2s;
+		@include mq() {
+			position: absolute;
+			width: 52px;
+			height: 52px;
+			margin-left: 0;
+			right: 0;
+			z-index: 1;
+		}
+		input {
+			background-color: #FFF;
+			margin-bottom: 24px;
+			width: 100%;
+			height: 52px;
+			border-radius: 27px;
+			box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
+			padding: 0 60px 0 30px;
+			font-size: 18px;
+			color: #777;
+			&::placeholder {
+				color: #777;
+				@include mq() {
+					color: transparent;
+				}
+			}
+			@include mq() {
+				margin-bottom: 20px;
+				padding: 0;
+			}
+		}
+		&__button {
+			position: absolute;
+			top: 0;
+			right: 5px;
+			width: 52px;
+			height: 52px;
+			cursor: pointer;
+			@include mq() {
+				right: 0;
+			}
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 50%;
+			}
+		}
+		&__close-button {
+			display: none;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			span {
+				display: block;
+				position: relative;
+				width: 52px;
+				height: 52px;
+				&::before {
+					content: "";
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translateX(-50%) rotate(45deg);
+					width: 20px;
+					height: 1px;
+					background-color: #224258;
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+					width: 20px;
+					height: 1px;
+					background-color: #224258;
+				}
+			}
+		}
+		&__bg {
+			display: none;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgba(0, 0, 0, 0.4);
+			z-index: 1;
+		}
+	}
+}
+// searchのxを削除
+::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+.applied {
+	display: none;
+	margin-bottom: 24px;
+	&__text {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+	&__list {
+		display: flex;
+		margin-bottom: 12px;
+		li {
+			padding: 5px 15px;
+			font-size: 14px;
+			margin-right: 12px;
+			border: 1px solid #224258;
+		}
+	}
+}
+.filter-list {
+	margin-bottom: 40px;
+	@include mq() {
+		margin-bottom: 16px;
+	}
+}
+.search-txt {
+	display: none;
+	margin-bottom: 24px;
+	p {
+		font-size: 22px;
+	}
+	span {
+		display: block;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+}
+.no-search {
+	display: none;
+	margin-top: 80px;
+	@include mq() {
+		margin-bottom: 50px;
+	}
+	p {
+		font-size: 22px;
+		margin-bottom: 16px;
+		line-height: 1.6em;
+	}
+	span {
+		font-size: 15px;
+	}
+}

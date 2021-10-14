@@ -1,0 +1,43 @@
+{
+  "name": "lp_practice",
+  "version": "1.0.0",
+  "description": "lp_practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "del": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-changed": "^4.0.0",
+    "gulp-ejs": "^4.1.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgmin": "^2.2.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "natives": "^1.1.6",
+    "npm-check-updates": "^3.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sng@sng.git.backlog.jp:/SNG/feldenkrais.git"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR"
+  ]
+}

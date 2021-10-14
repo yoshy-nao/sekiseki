@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【コスモ】Myカーリースの即納車情報 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【コスモ】Myカーリースの即納車情報</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【コスモ】Myカーリースの即納車情報</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20210713/20210713.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20210713/20210713.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>カジュアル、信頼</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>青を基調に信頼感をアピール配色になっている。また、タレントの服の色がアクセントになっている。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>レイアウトが安定しているが、整然としすぎていない</li>
+<li>多くの人に受け入れられるようなデザイン</li>
+<li>Z型になっており、視線の誘導</li>
+<li>リストの「・」が大きくてカジュアル</li>
+<li>バランスよく要素が配置されている。</li>
+<li>装飾が多いがあまりごちゃついた印象はない。</li>
+<li>ストライプパターンの背景がカジュアルさを演出している。</li>
+<li>要素に丸みがあって、親しみやすい。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->
