@@ -17,7 +17,7 @@
 
 <!-- フィルター -->
 <div class="filter">
-<button class="filter__btn modal-btn">り込み</button>
+<button class="filter__btn modal-btn">絞り込み</button>
 <!-- モーダル -->
 <div class="modal">
 <div class="modal__box">
