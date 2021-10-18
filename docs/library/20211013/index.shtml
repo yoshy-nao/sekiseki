@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="【TCB】超高速医療脱毛 バナー分析">
+<title>Seki Seki デザインの分「析」を「積」み上げる｜【TCB】超高速医療脱毛</title>
+<link rel="stylesheet" href="/common/css/destyle.css">
+<link rel="stylesheet" href="/common/css/common.css">
+</head>
+
+<body>
+<!--#include virtual="/include/header.shtml" -->
+
+<!-- メイン -->
+<div class="main">
+<h2 class="hdg-2">【TCB】超高速医療脱毛</h2>
+<div class="media-lyt">
+<div class="media-lyt__img modal-btn">
+<img src="/library/20211013/20211013.jpg" alt="">
+<button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
+</div>
+<!-- モーダル -->
+<div class="modal">
+<div class="modal__box">
+<div class="modal__box__close"><span></span></div>
+<div class="modal__box__img">
+<img src="/library/20211013/20211013.jpg">
+</div>
+</div>
+</div>
+<!-- モーダルここまで -->
+<div class="media-lyt__txt">
+<table class="table">
+<tbody>
+<tr>
+<th>媒体</th>
+<td>バナー</td>
+</tr>
+<tr>
+<th>ターゲット層</th>
+<td>女性。美容整形に関心がある。忙しい。</td>
+</tr>
+<tr>
+<th>キーワード</th>
+<td>信頼感、さわやか、先進的、女性向け</td>
+</tr>
+<tr>
+<th>配色</th>
+<td>寒色系で信頼感とさわやかな雰囲気を出している。全体的に明度が高い色が使われており重たくない。</td>
+</tr>
+<tr>
+<th>レイアウト</th>
+<td>F字型レイアウト。左上からの視線誘導にあわせて文字が配置されている。</td>
+</tr>
+</tbody>
+</table>
+<h3 class="hdg-3 t-left">要素の分析</h3>
+<ul class="list">
+<li>情報ごとにメリハリがつけられており、分かりやすい</li>
+<li>左上の「TCBおすすめ！」が、リボンのあしらい+グラデーションで目を引く。全体を単調にしないという点でも効いている。</li>
+<li>タイトルの文字が斜体と「超高速」の文字の加工により、スピード感を出している。</li>
+<li>「医療脱毛」の黒の境界線がずらされており、抜け感がありカジュアル。</li>
+<li>下部の3つのポイントの枠の形が平行四辺形になっており動きとスピード感を感じる。</li>
+<li>3つのポイントの色味が交互に変わっていて、リズム感があり単調になっていない。</li>
+</ul>
+</div>
+</div>
+<div class="t-center">
+<a class="btn" href="/">一覧に戻る</a>
+</div>
+</div>
+<!-- メインここまで -->
+
+<!--#include virtual="/include/footer.shtml" -->
