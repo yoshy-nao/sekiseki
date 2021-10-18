@@ -49,14 +49,15 @@
 <th>配色</th>
 <td>配色を入力</td>
 </tr>
+<tr>
+<th>レイアウト</th>
+<td>レイアウトを入力</td>
+</tr>
 </tbody>
 </table>
 <h3 class="hdg-3 t-left">要素の分析</h3>
 <ul class="list">
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<!-- ・(.*)　→　<li>$1</li> -->
 </ul>
 </div>
 </div>
