@@ -34,12 +34,14 @@
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="飲食" autocomplete="off"><span class="check-box__mark"></span>飲食</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="旅行" autocomplete="off"><span class="check-box__mark"></span>旅行</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="ファッション" autocomplete="off"><span class="check-box__mark"></span>ファッション</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="インテリア" autocomplete="off"><span class="check-box__mark"></span>インテリア</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="サービス" autocomplete="off"><span class="check-box__mark"></span>サービス</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="印刷" autocomplete="off"><span class="check-box__mark"></span>印刷</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="医療" autocomplete="off"><span class="check-box__mark"></span>医療</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="IT" autocomplete="off"><span class="check-box__mark"></span>IT</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="金融" autocomplete="off"><span class="check-box__mark"></span>金融</label>
 <label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="不動産" autocomplete="off"><span class="check-box__mark"></span>不動産</label>
+<label class="check-box"><input class="filter-list__item" type="radio" name="industry" value="美容" autocomplete="off"><span class="check-box__mark"></span>美容</label>
 </form>
 
 <h3 class="hdg-4">タグ</h3>
