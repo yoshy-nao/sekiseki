@@ -17,7 +17,7 @@
 <h2 class="hdg-2">【マネーフォワード】キャンペーンバナー</h2>
 <div class="media-lyt">
 <div class="media-lyt__img modal-btn">
-<img src="/library/20210901/20210901.jpg" alt="">
+<img src="/library/20210901/20210901.jpg" alt="" class="frame">
 <button class="zoom-label"><span class="zoom-label__icon"><img src="/common/img/search.svg"></span>拡大する</button>
 </div>
 <!-- モーダル -->
@@ -25,7 +25,7 @@
 <div class="modal__box">
 <div class="modal__box__close"><span></span></div>
 <div class="modal__box__img">
-<img src="/library/20210901/20210901.jpg">
+<img src="/library/20210901/20210901.jpg" class="frame">
 </div>
 </div>
 </div>

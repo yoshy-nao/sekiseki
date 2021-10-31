@@ -49,3 +49,9 @@ footer {
 		font-size: 14px;
 	}
 }
+// 画像
+img {
+	&.frame {
+		border: 1px solid #ddd;
+	}
+}
